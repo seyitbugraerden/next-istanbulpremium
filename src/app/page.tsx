@@ -1,3 +1,9 @@
+import { SwiperDemo } from "@/components/ui/SwiperDemo";
+
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <SwiperDemo />
+    </>
+  );
 }
