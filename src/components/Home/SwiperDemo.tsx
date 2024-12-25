@@ -18,7 +18,6 @@ export const SwiperDemo = () => {
       <div className="swiper-button-next-custom absolute top-1/2 right-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
         <FaArrowRight size={16} />
       </div>
-
       <Swiper
         navigation={{
           prevEl: ".swiper-button-prev-custom",
@@ -96,8 +95,7 @@ export const SwiperDemo = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-
-      <div className="container relative mt-14">
+      <div className="container relative mt-16">
         <TripleCard />
       </div>
     </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import { FaCarCrash } from "react-icons/fa";
+import { MdOutlineCarRental } from "react-icons/md";
+import { TbCar4Wd } from "react-icons/tb";
 
 export const TripleCard = () => {
   return (
@@ -20,8 +22,8 @@ export const TripleCard = () => {
         </div>
       </div>
       <div className="p-6 flex flex-1 flex-row items-start mt-4 gap-6 bg-white shadow-black shadow-2xl">
-        <div className="bg-primary p-2 rounded-full text-white mt-2">
-          <FaCarCrash size={24} />
+        <div className="bg-red-500 p-2 rounded-full text-white mt-2">
+          <MdOutlineCarRental size={24} />
         </div>
 
         <div>
@@ -33,8 +35,8 @@ export const TripleCard = () => {
         </div>
       </div>
       <div className="p-6 flex flex-1 flex-row items-start mt-4 gap-6 bg-white shadow-black shadow-2xl">
-        <div className="bg-primary p-2 rounded-full text-white mt-2">
-          <FaCarCrash size={24} />
+        <div className="bg-whatsapp p-2 rounded-full text-white mt-2">
+          <TbCar4Wd  size={24} />
         </div>
 
         <div>
