@@ -10,11 +10,11 @@ import { FaArrowLeft, FaArrowRight, FaPlay } from "react-icons/fa";
 
 export const SwiperDemo = () => {
   return (
-    <div className="relative h-dvh">
-      <div className="swiper-button-prev-custom absolute top-1/2 left-4 z-50 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
+    <div className="relative bg-red-500">
+      <div className="swiper-button-prev-custom absolute top-1/2 left-12 z-50 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
         <FaArrowLeft size={16} />
       </div>
-      <div className="swiper-button-next-custom absolute top-1/2 right-4 z-50 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
+      <div className="swiper-button-next-custom absolute top-1/2 right-12 z-50 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
         <FaArrowRight size={16} />
       </div>
 
@@ -25,7 +25,7 @@ export const SwiperDemo = () => {
         }}
         effect={"fade"}
         modules={[EffectFade, Navigation]}
-        className="mySwiper"
+        className="mySwiper h-full"
       >
         <SwiperSlide className="relative">
           <Image
@@ -33,7 +33,7 @@ export const SwiperDemo = () => {
             alt="inline"
             width={1920}
             height={800}
-            className="brightness-50 w-full"
+            className="brightness-50 w-full h-[800px]"
           />
           <div className="absolute top-[20%] left-0 z-50 w-full">
             <div className="container flex flex-col gap-6">
@@ -67,7 +67,7 @@ export const SwiperDemo = () => {
             alt="inline"
             width={1920}
             height={800}
-            className="brightness-50 w-full"
+            className="brightness-50 w-full h-[800px]"
           />
           <div className="absolute top-[20%] left-0 z-50 w-full">
             <div className="container flex flex-col gap-6">
