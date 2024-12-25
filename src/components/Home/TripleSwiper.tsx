@@ -13,7 +13,7 @@ export const TripleSwiper = () => {
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
-        className="mySwiper translate-y-20"
+        className="mySwiper translate-y-14"
       >
         {Array.from({ length: 12 }).map(() => (
           <SwiperSlide>
