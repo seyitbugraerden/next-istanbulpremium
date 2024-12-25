@@ -6,7 +6,7 @@ import { TbCar4Wd } from "react-icons/tb";
 export const TripleCard = () => {
   return (
     <div className="flex flex-row gap-12 absolute bottom-0 w-full z-50">
-      <div className="p-6 flex flex-1 flex-row items-start mt-4 gap-6 bg-white shadow-black shadow-md">
+      <div className="p-6 flex flex-1 flex-row items-start mt-4 gap-6 bg-white shadow-black shadow-sm">
         <div className="bg-primary p-2 rounded-full text-white mt-2">
           <FaCarCrash size={24} />
         </div>
@@ -21,7 +21,7 @@ export const TripleCard = () => {
           </p>
         </div>
       </div>
-      <div className="p-6 flex flex-1 flex-row items-start mt-4 gap-6 bg-white shadow-black shadow-md">
+      <div className="p-6 flex flex-1 flex-row items-start mt-4 gap-6 bg-white shadow-black shadow-sm">
         <div className="bg-red-500 p-2 rounded-full text-white mt-2">
           <MdOutlineCarRental size={24} />
         </div>
@@ -34,7 +34,7 @@ export const TripleCard = () => {
           </p>
         </div>
       </div>
-      <div className="p-6 flex flex-1 flex-row items-start mt-4 gap-6 bg-white shadow-black shadow-md">
+      <div className="p-6 flex flex-1 flex-row items-start mt-4 gap-6 bg-white shadow-black shadow-sm">
         <div className="bg-whatsapp p-2 rounded-full text-white mt-2">
           <TbCar4Wd  size={24} />
         </div>

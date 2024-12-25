@@ -10,7 +10,7 @@ export default {
     extend: {
       colors: {
         primary: "#0c2957",
-
+        bg:"#f7fafd",
         whatsapp: "#25D366",
       },
     },
