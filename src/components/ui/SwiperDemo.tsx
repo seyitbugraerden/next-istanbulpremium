@@ -7,14 +7,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 import { FaArrowLeft, FaArrowRight, FaPlay } from "react-icons/fa";
+import { TripleCard } from "./TripleCard";
 
 export const SwiperDemo = () => {
   return (
     <div className="relative bg-red-500">
-      <div className="swiper-button-prev-custom absolute top-1/2 left-12 z-50 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
+      <div className="swiper-button-prev-custom absolute top-1/2 left-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
         <FaArrowLeft size={16} />
       </div>
-      <div className="swiper-button-next-custom absolute top-1/2 right-12 z-50 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
+      <div className="swiper-button-next-custom absolute top-1/2 right-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
         <FaArrowRight size={16} />
       </div>
 
@@ -35,7 +36,7 @@ export const SwiperDemo = () => {
             height={800}
             className="brightness-50 w-full h-[800px]"
           />
-          <div className="absolute top-[20%] left-0 z-50 w-full">
+          <div className="absolute top-[20%] left-0 z-10 w-full">
             <div className="container flex flex-col gap-6">
               <h6 className="text-white font-medium text-4xl">
                 Welcome to ***
@@ -69,7 +70,7 @@ export const SwiperDemo = () => {
             height={800}
             className="brightness-50 w-full h-[800px]"
           />
-          <div className="absolute top-[20%] left-0 z-50 w-full">
+          <div className="absolute top-[20%] left-0 z-10 w-full">
             <div className="container flex flex-col gap-6">
               <h6 className="text-white font-medium text-4xl">
                 Welcome to ***
@@ -95,6 +96,10 @@ export const SwiperDemo = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+
+      <div className="container relative mt-14">
+        <TripleCard />
+      </div>
     </div>
   );
 };
