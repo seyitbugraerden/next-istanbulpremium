@@ -11,7 +11,7 @@ export const ServiceTop = () => {
       <h2 className="text-black text-4xl font-bold text-center pt-2">
         Ne Sunuyoruz?
       </h2>
-      <div className="flex gap-6">
+      <div className="flex gap-6 mt-12">
         <div className="flex-1 flex flex-col justify-between">
           {Array.from({ length: 3 }).map(() => (
             <div className="p-6 flex flex-row items-start gap-6 bg-white border shadow-sm shadow-black/30">
