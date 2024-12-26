@@ -3,6 +3,7 @@ import { SwiperDemo } from "@/components/Home/SwiperDemo";
 import { ServiceTop } from "@/components/Home/ServiceTop";
 import { AccordionDemo } from "@/components/Home/AccordionDemo";
 import { ServiceSection } from "@/components/Home/ServiceSection";
+import { ContactUs } from "@/components/Home/ContactUs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ServiceSection />
       <ServiceTop />
       <AccordionDemo />
+      <ContactUs />
     </>
   );
 }

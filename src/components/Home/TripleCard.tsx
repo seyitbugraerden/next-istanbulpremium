@@ -13,7 +13,7 @@ export const TripleCard = () => {
 
         <div>
           <h2 className="text-2xl font-semibold mb-2">
-            Periyodik Bakım ve Onarım
+            Periyodik Bakım
           </h2>
           <p className="text-sm font-thin">
             Araçların düzenli bakımını ve ihtiyaç duyulan onarımlarını kapsayan

@@ -1,11 +1,12 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import { MdOutlineCarRental } from "react-icons/md";
 
 export const ServiceTop = () => {
   return (
-    <div className="h-[80dvh] flex justify-center items-center">
-      <div className="container -translate-y-6">
+    <div className="h-dvh flex justify-center items-center">
+      <div className="container -translate-y-12">
         <h6 className="text-red-500 text-sm font-bold text-center">
           Servislerimiz
         </h6>
@@ -14,10 +15,12 @@ export const ServiceTop = () => {
         </h2>
         <div className="flex gap-6 mt-12">
           <div className="flex-1 flex flex-col justify-between">
-            {Array.from({ length: 3 }).map(() => (
-              <div className="p-6 flex flex-row items-start gap-6 bg-white border shadow-sm shadow-black/30">
+            {Array.from({ length: 3 }).map((_, index) => (
+              <div
+                key={`left-${index}`}
+                className="p-6 flex flex-row items-start gap-6 bg-white border shadow-sm shadow-black/30"
+              >
                 <MdOutlineCarRental size={64} className="text-red-500" />
-
                 <div>
                   <h2 className="text-base font-semibold mb-2">Arıza Tespit</h2>
                   <p className="text-xs font-thin">
@@ -39,10 +42,12 @@ export const ServiceTop = () => {
             />
           </div>
           <div className="flex-1 flex flex-col justify-between">
-            {Array.from({ length: 3 }).map(() => (
-              <div className="p-6 flex flex-row items-start gap-6 bg-white border shadow-sm shadow-black/30">
+            {Array.from({ length: 3 }).map((_, index) => (
+              <div
+                key={`right-${index}`}
+                className="p-6 flex flex-row items-start gap-6 bg-white border shadow-sm shadow-black/30"
+              >
                 <MdOutlineCarRental size={64} className="text-red-500" />
-
                 <div>
                   <h2 className="text-base font-semibold mb-2">Arıza Tespit</h2>
                   <p className="text-xs font-thin">
