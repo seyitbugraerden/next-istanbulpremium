@@ -4,7 +4,7 @@ import { MdOutlineCarRental } from "react-icons/md";
 
 export const ServiceTop = () => {
   return (
-    <div className="container">
+    <div className="container pb-16">
       <h6 className="text-red-500 text-sm font-bold text-center">
         Servislerimiz
       </h6>
