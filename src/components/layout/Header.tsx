@@ -11,9 +11,9 @@ import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
 import { TbPhoneCall } from "react-icons/tb";
 
 export const Header = () => {
-  const links = ["Ana Sayfa", "Hakkımızda", "Hizmetlerimiz", "İletişim"];
+  const links = ["Ana Sayfa", "Hakkımızda", "Hizmetlerimiz", "SSS", "İletişim"];
   return (
-    <header className="bg-primary">
+    <header className="bg-darkblue">
       <div className="container flex items-center h-14">
         <div className="flex justify-between items-center w-full">
           <div className="flex flex-row gap-4 items-center">
