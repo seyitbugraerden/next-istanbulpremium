@@ -53,7 +53,7 @@ export const ContactUs = () => {
             </div>
           </div>
 
-          <div className="h-full flex flex-col justify-between p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
+          <div className="h-full bg-white flex flex-col justify-between p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
             <div>
               <h2 className="text-black text-4xl font-bold text-start mb-11">
                 Bize Mesaj Gönder

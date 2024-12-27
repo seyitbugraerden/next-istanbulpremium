@@ -101,3 +101,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.swiper-pagination-bullet{
+  @apply transition duration-300 !rounded-none
+}
+.swiper-pagination-bullet-active{
+  @apply !bg-darkblue scale-[1.5] 
+}

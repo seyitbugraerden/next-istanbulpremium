@@ -7,16 +7,19 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import Image from "next/image";
+import { Pagination } from "swiper/modules";
 
 interface TripleSwiperProps extends SwiperProps {
-  items?: number; // Allows specifying the number of slides dynamically
+  items?: number; 
 }
 
-export const TripleSwiper: React.FC<TripleSwiperProps> = ({ items = 12 }) => {
+export const TripleSwiper: React.FC<TripleSwiperProps> = ({ items = 6 }) => {
   return (
     <Swiper
       slidesPerView={3}
       spaceBetween={30}
+      pagination={true}
+      modules={[Pagination]}
       className="mySwiper translate-y-14"
     >
       {Array.from({ length: items }).map((_, index) => (
