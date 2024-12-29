@@ -6,7 +6,7 @@ body {
   @apply bg-bg;
 }
 .container {
-  @apply max-w-[1340px] mx-auto;
+  @apply max-w-[90vw] xl:max-w-[1240px]  mx-auto;
 }
 
 .bg_sec {
@@ -102,9 +102,9 @@ body {
   background-repeat: no-repeat;
 }
 
-.swiper-pagination-bullet{
-  @apply transition duration-300 !rounded-none
+.swiper-pagination-bullet {
+  @apply transition duration-300 !rounded-none;
 }
-.swiper-pagination-bullet-active{
-  @apply !bg-darkblue scale-[1.5] 
+.swiper-pagination-bullet-active {
+  @apply !bg-darkblue scale-[1.5];
 }

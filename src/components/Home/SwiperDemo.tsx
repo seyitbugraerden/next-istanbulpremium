@@ -11,7 +11,7 @@ import { TripleCard } from "./TripleCard";
 
 export const SwiperDemo = () => {
   return (
-    <div className="relative bg-red-500">
+    <div className="relative">
       <div className="swiper-button-prev-custom absolute top-1/2 left-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
         <FaArrowLeft size={16} />
       </div>
@@ -95,7 +95,7 @@ export const SwiperDemo = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="container relative mt-16">
+      <div className="container relative mt-16 hidden lg:block">
         <TripleCard />
       </div>
     </div>
