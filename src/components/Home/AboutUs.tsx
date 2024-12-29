@@ -12,7 +12,7 @@ export const AboutUs = () => {
             alt="About Image"
             width={340}
             height={340}
-            className="max-w-[80%] lg:max-w-full mx-auto w-full h-[550px] object-cover"
+            className="max-w-[80%] lg:max-w-full mx-auto w-full h-[45vw] min-h-[350px] lg:max-h-[550px] object-cover"
           />
           <div className="absolute -top-6 left-6 lg:-top-6 lg:-left-6 bg-red-500 p-4 flex justify-center items-center flex-col">
             <span className="text-4xl font-bold text-white">25</span>

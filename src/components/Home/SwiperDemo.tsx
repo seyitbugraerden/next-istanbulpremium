@@ -35,7 +35,7 @@ export const SwiperDemo = () => {
             height={800}
             className="brightness-50 w-full h-[800px]"
           />
-          <div className="absolute top-[20%] left-0 z-10 w-full">
+          <div className="absolute top-[30%] lg:top-[20%] left-0 z-10 w-full">
             <div className="container flex flex-col gap-6">
               <h6 className="text-white font-medium text-xl lg:text-4xl">
                 Welcome to ***
@@ -43,7 +43,7 @@ export const SwiperDemo = () => {
               <h1 className="text-white font-semibold text-6xl lg:text-8xl">
                 Professional Car Service Provide
               </h1>
-              <p className="text-white text-sm lg:text-lg font-light text-lg mt-12 max-w-3xl whitespace-normal">
+              <p className="text-white text-sm lg:text-lg font-light mt-12 max-w-3xl whitespace-normal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reiciendis eligendi excepturi cum animi aliquam alias quas
                 consequatur quam libero laborum?
@@ -60,16 +60,15 @@ export const SwiperDemo = () => {
             </div>
           </div>
         </SwiperSlide>
-
         <SwiperSlide className="relative">
           <Image
-            src="https://picsum.photos/1920/700"
+            src="https://picsum.photos/1920/600"
             alt="inline"
             width={1920}
             height={800}
             className="brightness-50 w-full h-[800px]"
           />
-          <div className="absolute top-[20%] left-0 z-10 w-full">
+          <div className="absolute top-[30%] lg:top-[20%] left-0 z-10 w-full">
             <div className="container flex flex-col gap-6">
               <h6 className="text-white font-medium text-xl lg:text-4xl">
                 Welcome to ***
@@ -77,7 +76,7 @@ export const SwiperDemo = () => {
               <h1 className="text-white font-semibold text-6xl lg:text-8xl">
                 Professional Car Service Provide
               </h1>
-              <p className="text-white text-sm lg:text-lg font-light text-lg mt-12 max-w-3xl whitespace-normal">
+              <p className="text-white text-sm lg:text-lg font-light mt-12 max-w-3xl whitespace-normal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reiciendis eligendi excepturi cum animi aliquam alias quas
                 consequatur quam libero laborum?
