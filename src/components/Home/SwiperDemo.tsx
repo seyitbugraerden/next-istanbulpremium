@@ -12,10 +12,10 @@ import { TripleCard } from "./TripleCard";
 export const SwiperDemo = () => {
   return (
     <div className="relative">
-      <div className="swiper-button-prev-custom absolute top-1/2 left-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
+      <div className="swiper-button-prev-custom hidden lg:block absolute top-1/2 left-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
         <FaArrowLeft size={16} />
       </div>
-      <div className="swiper-button-next-custom absolute top-1/2 right-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
+      <div className="swiper-button-next-custom hidden lg:block absolute top-1/2 right-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
         <FaArrowRight size={16} />
       </div>
       <Swiper
@@ -37,13 +37,13 @@ export const SwiperDemo = () => {
           />
           <div className="absolute top-[20%] left-0 z-10 w-full">
             <div className="container flex flex-col gap-6">
-              <h6 className="text-white font-medium text-4xl">
+              <h6 className="text-white font-medium text-xl lg:text-4xl">
                 Welcome to ***
               </h6>
-              <h1 className="text-white font-semibold text-8xl">
+              <h1 className="text-white font-semibold text-6xl lg:text-8xl">
                 Professional Car Service Provide
               </h1>
-              <p className="text-white font-light text-lg mt-12 max-w-3xl whitespace-normal">
+              <p className="text-white text-sm lg:text-lg font-light text-lg mt-12 max-w-3xl whitespace-normal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reiciendis eligendi excepturi cum animi aliquam alias quas
                 consequatur quam libero laborum?
@@ -63,7 +63,7 @@ export const SwiperDemo = () => {
 
         <SwiperSlide className="relative">
           <Image
-            src="https://picsum.photos/1918/800"
+            src="https://picsum.photos/1920/700"
             alt="inline"
             width={1920}
             height={800}
@@ -71,13 +71,13 @@ export const SwiperDemo = () => {
           />
           <div className="absolute top-[20%] left-0 z-10 w-full">
             <div className="container flex flex-col gap-6">
-              <h6 className="text-white font-medium text-4xl">
+              <h6 className="text-white font-medium text-xl lg:text-4xl">
                 Welcome to ***
               </h6>
-              <h1 className="text-white font-semibold text-8xl">
-                Professional Car TEST
+              <h1 className="text-white font-semibold text-6xl lg:text-8xl">
+                Professional Car Service Provide
               </h1>
-              <p className="text-white font-light text-lg mt-12 max-w-3xl whitespace-normal">
+              <p className="text-white text-sm lg:text-lg font-light text-lg mt-12 max-w-3xl whitespace-normal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reiciendis eligendi excepturi cum animi aliquam alias quas
                 consequatur quam libero laborum?

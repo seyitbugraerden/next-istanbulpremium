@@ -9,7 +9,7 @@ export function AccordionDemo() {
   return (
     <section className="bg-darkblue bg_blue flex items-center relative py-36">
       <div className="container grid grid-cols-2">
-        <div>
+        <div className="col-span-2 lg:col-span-1">
           <h6 className="text-red-500 text-sm font-bold">
             Sıkça Sorulan Sorular (SSS)
           </h6>
@@ -75,7 +75,7 @@ export function AccordionDemo() {
             </AccordionItem>
           </Accordion>
         </div>
-        <div></div>
+        <div className="hidden lg:block"></div>
       </div>
     </section>
   );

@@ -87,19 +87,21 @@ body {
   }
 }
 
-.bg_blue::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  background-color: red;
-  z-index: 99;
-  background-image: url("https://picsum.photos/600/600");
-  background-size: cover;
-  background-repeat: no-repeat;
+@media (min-width: 1024px) {
+  .bg_blue::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    z-index: 99;
+    background-image: url("https://picsum.photos/600/600");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 .swiper-pagination-bullet {
