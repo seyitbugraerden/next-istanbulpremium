@@ -7,10 +7,10 @@ export const ServiceTop = () => {
   return (
     <div className="flex justify-center items-center py-24">
       <div className="container -translate-y-12">
-        <h6 className="text-red-500 text-sm font-bold text-center">
+        <h6 className="text-red-500 text-sm font-bold">
           Servislerimiz
         </h6>
-        <h2 className="text-black text-4xl font-bold text-center pt-2">
+        <h2 className="text-black text-3xl lg:text-4xl font-bold pt-3">
           Ne Sunuyoruz?
         </h2>
         <div className="flex flex-col lg:flex-row gap-6 mt-12 items-stretch">

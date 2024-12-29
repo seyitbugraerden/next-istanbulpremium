@@ -13,7 +13,7 @@ export function AccordionDemo() {
           <h6 className="text-red-500 text-sm font-bold">
             Sıkça Sorulan Sorular (SSS)
           </h6>
-          <h2 className="text-white text-3xl font-bold">
+          <h2 className="text-white text-3xl lg:text-4xl font-bold pt-3">
             Araç Tamiri Hakkında Merak Edilenler
           </h2>
           <Accordion type="single" collapsible className="w-full text-black mt-6">

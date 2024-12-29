@@ -4,9 +4,9 @@ import { FaCheckDouble } from "react-icons/fa";
 
 export const AboutUs = () => {
   return (
-    <div className="lg:h-dvh flex justify-center items-center py-24">
+    <div className="lg:h-dvh flex justify-center items-center py-12">
       <section className="grid lg:grid-cols-5 container gap-12">
-        <div className="lg:col-span-2 relative">
+        <div className="lg:col-span-2 relative order-2 lg:order-1">
           <Image
             src="https://picsum.photos/1920/600"
             alt="About Image"
@@ -20,9 +20,9 @@ export const AboutUs = () => {
             <span className="text-white font-bold">Experience</span>
           </div>
         </div>
-        <div className="lg:col-span-3 flex flex-col gap-4">
+        <div className="lg:col-span-3 flex flex-col gap-4 order-1 lg:order-2">
           <h6 className="text-red-500 text-sm font-bold">HAKKIMIZDA</h6>
-          <h2 className="text-black text-3xl lg:text-6xl font-bold">
+          <h2 className="text-black text-3xl lg:text-4xl font-bold">
             Make your car feel like a brand new one
           </h2>
           <p className="text-sm lg:text-lg font-light text-justify">

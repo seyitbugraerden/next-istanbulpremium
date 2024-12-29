@@ -8,13 +8,13 @@ import { MdPlace } from "react-icons/md";
 export const ContactUs = () => {
   return (
     <section className="py-24">
-      <h6 className="text-red-500 text-sm font-bold text-center">
-        Bize Ulaşın
-      </h6>
-      <h2 className="text-black text-4xl font-bold text-center">
-        En Başarılı Çözümleriniz İçin
-      </h2>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-24">
+      <div className="container">
+        <h6 className="text-red-500 text-sm font-bold">Bize Ulaşın</h6>
+        <h2 className="text-black text-3xl lg:text-4xl font-bold pt-3">
+          En Başarılı Çözümleriniz İçin
+        </h2>
+      </div>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-12">
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="lg:mb-0 mb-10">
             <div className="group w-full h-full">
