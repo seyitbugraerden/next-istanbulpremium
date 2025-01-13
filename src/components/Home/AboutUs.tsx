@@ -16,40 +16,44 @@ export const AboutUs = () => {
           />
           <div className="absolute -top-6 left-6 lg:-top-6 lg:-left-6 bg-red-500 p-4 flex justify-center items-center flex-col">
             <span className="text-4xl font-bold text-white">25</span>
-            <span className="text-white font-bold">Years of</span>
-            <span className="text-white font-bold">Experience</span>
+            <span className="text-white font-bold">Yıllık</span>
+            <span className="text-white font-bold">Tecrübe</span>
           </div>
         </div>
         <div className="lg:col-span-3 flex flex-col gap-4 order-1 lg:order-2">
           <h6 className="text-red-500 text-sm font-bold">HAKKIMIZDA</h6>
           <h2 className="text-black text-3xl lg:text-4xl font-bold">
-            Make your car feel like a brand new one
+            İstanbul’un Güvenilir Araç Servisi <br />
+            Kalite ve Güvenin Adresi
           </h2>
           <p className="text-sm lg:text-lg font-light text-justify">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt,
-            rem amet veniam itaque ea nihil reprehenderit! Eius qui blanditiis
-            aspernatur dolores earum facilis libero dolorem, odio deserunt
-            molestias fugiat vel.earum facilis libero dolorem, odio deserunt
-            molestias fugiat vel.
+            İstanbul Premium, araç bakım ve tamir hizmetlerinde İstanbul’un
+            lider servislerinden biridir. Uzman ekibimiz, modern ekipmanlarımız
+            ve müşteri odaklı yaklaşımımızla, aracınızın tüm ihtiyaçlarını
+            profesyonelce karşılıyoruz. Motor bakımından elektrik arızalarına,
+            periyodik bakım hizmetlerinden fren ve süspansiyon çözümlerine kadar
+            geniş bir yelpazede hizmet sunuyoruz.
           </p>
           <p className="text-sm lg:text-lg font-light text-justify">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt,
-            rem amet veniam itaque ea nihil reprehenderit! Eius qui blanditiis
-            aspernatur dolores earum facilis libero dolorem, odio deserunt
-            molestias fugiat vel.earum facilis libero dolorem, odio deserunt
-            molestias fugiat vel.
+            Amacımız, her müşterimize güvenli, konforlu ve sorunsuz bir sürüş
+            deneyimi sunmaktır. Araç bakım ve tamir hizmetlerinde uzman
+            kadromuzla, sizlere en iyi çözümleri sunmak için çalışıyoruz. Modern
+            ekipmanlarımız ve sektördeki yenilikçi yaklaşımımızla, kaliteyi ve
+            müşteri memnuniyetini her zaman ön planda tutuyoruz. Uygun
+            fiyatlarla, aracınızın ihtiyaçlarına profesyonelce cevap veren doğru
+            adres: İstanbul Premium!
           </p>
-          <div className="flex flex-row items-center gap-2 text-sm lg:text-lg">
-            <FaCheckDouble className="text-red-500" size={12} /> Lorem ipsum
-            dolor sit amet.
+          <div className="flex flex-row items-center gap-2 text-sm lg:text-lg text-bold">
+            <FaCheckDouble className="text-red-500" size={12} />
+            Müşteri Memnuniyeti Odaklı Hizmet
           </div>
-          <div className="flex flex-row items-center gap-2 text-sm lg:text-lg">
-            <FaCheckDouble className="text-red-500" size={12} /> Lorem ipsum
-            dolor sit amet.
+          <div className="flex flex-row items-center gap-2 text-sm lg:text-lg text-bold">
+            <FaCheckDouble className="text-red-500" size={12} />
+            Kaliteli ve Hızlı Çözümler
           </div>
-          <div className="flex flex-row items-center gap-2 text-sm lg:text-lg">
-            <FaCheckDouble className="text-red-500" size={12} /> Lorem ipsum
-            dolor sit amet.
+          <div className="flex flex-row items-center gap-2 text-sm lg:text-lg text-bold">
+            <FaCheckDouble className="text-red-500" size={12} />
+            Sürekli Gelişim ve Yenilik
           </div>
         </div>
       </section>
