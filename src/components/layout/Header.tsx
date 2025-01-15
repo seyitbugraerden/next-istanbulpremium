@@ -13,7 +13,14 @@ import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
 import { TbPhoneCall } from "react-icons/tb";
 
 export const Header = () => {
-  const links = ["Ana Sayfa", "Hakkımızda", "Hizmetlerimiz", "SSS", "İletişim"];
+  const links = [
+    { text: "Ana Sayfa", link: "#anasayfa" },
+    { text: "Hakkımızda", link: "#hakkimizda" },
+    { text: "Hizmetlerimiz", link: "#hizmetler" },
+    { text: "SSS", link: "#sss" },
+    { text: "İletişim", link: "#iletisim" },
+  ];
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -116,13 +123,13 @@ export const Header = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex flex-row gap-6">
-            {links.map((x: string, _: number) => (
+            {links.map((x: LinkType, _: number) => (
               <Link
                 key={_}
-                href="#hakkimizda"
+                href={x.link}
                 className="font-bold text-sm text-primary hover:opacity-50 transition duration-300"
               >
-                {x}
+                {x.text}
               </Link>
             ))}
           </div>
@@ -152,13 +159,13 @@ export const Header = () => {
           }`}
         >
           <div className="px-2 pt-2 pb-3 space-y-1">
-            {links.map((x: string, _: number) => (
+            {links.map((x: LinkType, _: number) => (
               <Link
                 key={_}
-                href="#"
+                href={x.link}
                 className="block px-3 py-2 text-primary font-bold text-sm hover:opacity-50 transition duration-300"
               >
-                {x}
+                {x.text}
               </Link>
             ))}
           </div>

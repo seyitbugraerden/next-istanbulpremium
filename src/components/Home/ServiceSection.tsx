@@ -4,7 +4,7 @@ import { TripleSwiper } from "./TripleSwiper";
 export const ServiceSection = () => {
   return (
     <>
-      <div className="bg_sec pt-12 mb-12">
+      <div className="bg_sec pt-12 mb-12" id="hizmetler">
         <div className="container">
           <h6 className="text-red-500 text-sm font-bold">HİZMETLERİMİZ</h6>
           <h2 className="text-white text-3xl lg:text-4xl font-bold mt-3">

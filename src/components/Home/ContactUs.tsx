@@ -7,9 +7,9 @@ import { MdPlace } from "react-icons/md";
 
 export const ContactUs = () => {
   return (
-    <section className="py-24">
+    <section className="py-24" id="iletisim">
       <div className="container">
-        <h6 className="text-red-500 text-sm font-bold">Bize Ulaşın</h6>
+        <h6 className="text-red-500 text-sm font-bold">BİZE ULAŞIN</h6>
         <h2 className="text-black text-3xl lg:text-4xl font-bold pt-3">
           En Başarılı Çözümleriniz İçin
         </h2>
@@ -32,19 +32,19 @@ export const ContactUs = () => {
                     <a href="javascript:;" className="flex items-center mb-6">
                       <IoIosCall />
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
-                        470-601-1911
+                        +90 (538) 354 94 77
                       </h5>
                     </a>
                     <a href="javascript:;" className="flex items-center mb-6">
                       <IoMail />
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
-                        Pagedone1234@gmail.com
+                        info@istanpulpremium.com.tr
                       </h5>
                     </a>
                     <a href="javascript:;" className="flex items-center">
                       <MdPlace />
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
-                        654 Sycamore Avenue, Meadowville, WA 76543
+                        Demirkapı, Bağcılar Asf Cd, 34203 Bağcılar/İstanbul
                       </h5>
                     </a>
                   </div>

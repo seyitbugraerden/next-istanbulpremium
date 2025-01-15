@@ -7,16 +7,23 @@ import {
 
 export function AccordionDemo() {
   return (
-    <section className="bg-darkblue bg_blue flex items-center relative py-36">
+    <section
+      id="sss"
+      className="bg-darkblue bg_blue flex items-center relative py-36"
+    >
       <div className="container grid grid-cols-2">
         <div className="col-span-2 lg:col-span-1">
           <h6 className="text-red-500 text-sm font-bold">
-            Sıkça Sorulan Sorular (SSS)
+            SIKÇA SORULAN SORULAR (SSS)
           </h6>
           <h2 className="text-white text-3xl lg:text-4xl font-bold pt-3">
             Araç Tamiri Hakkında Merak Edilenler
           </h2>
-          <Accordion type="single" collapsible className="w-full text-black mt-6">
+          <Accordion
+            type="single"
+            collapsible
+            className="w-full text-black mt-6"
+          >
             <AccordionItem value="item-1" className="w-full">
               <AccordionTrigger>
                 Araç tamir süreci ne kadar sürer?
