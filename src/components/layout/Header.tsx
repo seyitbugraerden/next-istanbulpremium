@@ -119,7 +119,7 @@ export const Header = () => {
             {links.map((x: string, _: number) => (
               <Link
                 key={_}
-                href="#"
+                href="#hakkimizda"
                 className="font-bold text-sm text-primary hover:opacity-50 transition duration-300"
               >
                 {x}
