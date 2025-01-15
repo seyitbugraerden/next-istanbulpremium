@@ -7,7 +7,6 @@ import { FaSpaceAwesome } from "react-icons/fa6";
 import { IoIosPricetags } from "react-icons/io";
 import {
   MdHandyman,
-  MdOutlineCarRental,
   MdOutlineSupervisorAccount,
 } from "react-icons/md";
 

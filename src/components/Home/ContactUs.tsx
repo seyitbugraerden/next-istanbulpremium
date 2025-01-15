@@ -1,5 +1,6 @@
 // pages/ContactUs.tsx
 
+import Image from "next/image";
 import React from "react";
 import { IoIosCall } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
@@ -19,7 +20,7 @@ export const ContactUs = () => {
           <div className="lg:mb-0 mb-10">
             <div className="group w-full h-full">
               <div className="relative h-full">
-                <img
+                <Image
                   src="https://pagedone.io/asset/uploads/1696488602.png"
                   alt="ContactUs tailwind section"
                   className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover"

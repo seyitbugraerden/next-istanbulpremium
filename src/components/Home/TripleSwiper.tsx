@@ -120,7 +120,7 @@ const slideData = [
   },
 ];
 
-export const TripleSwiper: React.FC<TripleSwiperProps> = ({ items = 6 }) => {
+export const TripleSwiper: React.FC<TripleSwiperProps> = () => {
   return (
     <Swiper
       spaceBetween={30}
