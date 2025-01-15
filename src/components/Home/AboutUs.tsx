@@ -4,7 +4,7 @@ import { FaCheckDouble } from "react-icons/fa";
 
 export const AboutUs = () => {
   return (
-    <div className="lg:h-dvh flex justify-center items-center py-12">
+    <div className="lg:h-dvh flex justify-center items-center py-12" id="hakkimizda">
       <section className="grid lg:grid-cols-5 container gap-12">
         <div className="lg:col-span-2 relative order-2 lg:order-1">
           <Image

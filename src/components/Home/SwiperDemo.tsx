@@ -11,7 +11,7 @@ import { TripleCard } from "./TripleCard";
 
 export const SwiperDemo = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="anasayfa">
       <div className="swiper-button-prev-custom hidden lg:block absolute top-1/2 left-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
         <FaArrowLeft size={16} />
       </div>
@@ -29,11 +29,11 @@ export const SwiperDemo = () => {
       >
         <SwiperSlide className="relative">
           <Image
-            src="https://picsum.photos/1920/800"
+            src="/banner_1.jpeg"
             alt="inline"
             width={1920}
             height={800}
-            className="brightness-50 w-full h-[800px]"
+            className="brightness-50 w-full h-[800px] object-cover"
           />
           <div className="absolute top-[30%] lg:top-[20%] left-0 z-10 w-full">
             <div className="container flex flex-col gap-4">
@@ -49,12 +49,14 @@ export const SwiperDemo = () => {
                 çözümler sunuyoruz.
               </p>
               <div className="text-white mt-6 flex flex-row items-center gap-6">
-                <div className="bg-red-500 inline-flex px-6 py-3 hover:bg-primary transition-all duration-300">
+                <div className="bg-red-500 inline-flex px-6 py-3 hover:bg-primary transition-all duration-300 cursor-pointer">
                   İletişime Geç
                 </div>
                 <div className="flex flex-row items-center gap-4 relative">
                   <FaPlay className="bg-white text-red-500 rounded-full p-4 size-12 hover:scale-125 transition-all duration-300" />
-                  <p className="text-sm font-bold">Tanıtımı İzle</p>
+                  <p className="text-sm font-bold cursor-pointer">
+                    Tanıtımı İzle
+                  </p>
                 </div>
               </div>
             </div>
@@ -62,7 +64,7 @@ export const SwiperDemo = () => {
         </SwiperSlide>
         <SwiperSlide className="relative">
           <Image
-            src="https://picsum.photos/1920/800"
+            src="/banner_2.jpg"
             alt="inline"
             width={1920}
             height={800}
@@ -82,7 +84,7 @@ export const SwiperDemo = () => {
                 memnuniyeti önceliğimizdir.
               </p>
               <div className="text-white mt-6 flex flex-row items-center gap-6">
-                <div className="bg-red-500 inline-flex px-6 py-3 hover:bg-primary transition-all duration-300">
+                <div className="bg-red-500 inline-flex px-6 py-3 hover:bg-primary transition-all duration-300 cursor-pointer">
                   İletişime Geç
                 </div>
               </div>

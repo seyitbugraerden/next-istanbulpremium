@@ -26,37 +26,56 @@ export const Header = () => {
       <div className="container hidden lg:flex items-center h-14">
         <div className="flex justify-between items-center w-full">
           <div className="flex flex-row gap-4 items-center">
-            <Link href="" className="flex flex-row gap-2 items-center">
+            <Link
+              target="_blank"
+              href="mailto:info@istanpulpremium.com.tr"
+              className="flex flex-row gap-2 items-center"
+            >
               <MdOutlineEmail className="text-white" size={16} />
               <span className="text-white text-sm">
                 info@istanpulpremium.com.tr
               </span>
             </Link>
-            <Link href='' className="flex flex-row gap-2 items-center">
+
+            <Link
+              href="tel:+905383549477"
+              target="_blank"
+              className="flex flex-row gap-2 items-center"
+            >
               <MdOutlinePhone className="text-white" size={16} />
-              <span className="text-white text-sm">+90 (538) 354 94 77 </span>
+              <span className="text-white text-sm">+90 (538) 354 94 77</span>
             </Link>
           </div>
           <div className="flex flex-row gap-4 items-center text-white">
             <FaFacebookF
               size={18}
-              className="cursor-pointer hover:opacity-70 transition duration-300"
+              className="cursor-pointer hover:opacity-70 transition duration-300 hidden"
             />
-            <FaInstagram
-              size={18}
-              className="cursor-pointer hover:opacity-70 transition duration-300"
-            />
+            <Link
+              href="https://www.instagram.com/istanbul.premium.servis"
+              title="İstanbul Premium Oto Servis Instagram"
+              target="_blank"
+            >
+              <FaInstagram
+                size={18}
+                className="cursor-pointer hover:opacity-70 transition duration-300"
+              />
+            </Link>
             <FaXTwitter
               size={18}
-              className="cursor-pointer hover:opacity-70 transition duration-300"
+              className="cursor-pointer hover:opacity-70 transition duration-300 hidden"
             />
             <FaLinkedinIn
               size={18}
-              className="cursor-pointer hover:opacity-70 transition duration-300"
+              className="cursor-pointer hover:opacity-70 transition duration-300 hidden"
             />
-            <div className="h-14 text-lg bg-whatsapp flex flex-row gap-2 justify-center items-center px-7 text-black hover:brightness-75 transition duration-300 cursor-pointer">
+            <Link
+              href="https://wa.me/+905383549477"
+              target="_blank"
+              className="h-14 text-lg bg-whatsapp flex flex-row gap-2 justify-center items-center px-7 text-black hover:brightness-75 transition duration-300 cursor-pointer"
+            >
               <FaWhatsapp size={24} /> WhatsApp
-            </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -109,7 +128,10 @@ export const Header = () => {
           </div>
 
           {/* Call Section */}
-          <Link href='#' className="hidden md:flex flex-row gap-3 items-center">
+          <Link
+            href="tel:+905383549477"
+            className="hidden md:flex flex-row gap-3 items-center"
+          >
             <TbPhoneCall
               size={48}
               className="border border-black/10 shadow-lg shadow-blas p-1.5 rounded-full"
