@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const Footer = () => {
@@ -14,29 +15,29 @@ export const Footer = () => {
           </a>
           <ul className="flex flex-wrap justify-center items-center gap-4 text-sm font-medium text-white">
             <li>
-              <a href="#" className="hover:underline transition-all duration-300">
+              <Link href="#anasaya" className="hover:underline transition-all duration-300">
                 Ana Sayfa
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline transition-all duration-300">
+              <Link href="#hakkimizda" className="hover:underline transition-all duration-300">
                 Hakkımzda
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline transition-all duration-300">
+              <Link href="#hizmetler" className="hover:underline transition-all duration-300">
                 Hizmetlerimiz
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline transition-all duration-300">
+              <Link href="#sss" className="hover:underline transition-all duration-300">
                 SSS
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline transition-all duration-300">
+              <Link href="#iletisim" className="hover:underline transition-all duration-300">
                 İletişim
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
