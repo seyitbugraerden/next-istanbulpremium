@@ -1,6 +1,7 @@
 // pages/ContactUs.tsx
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { IoIosCall } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
@@ -21,33 +22,46 @@ export const ContactUs = () => {
             <div className="group w-full h-full">
               <div className="relative h-full">
                 <Image
-                  src="https://pagedone.io/asset/uploads/1696488602.png"
+                  src="/contact_us.jpg"
                   alt="ContactUs tailwind section"
-                  className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover"
+                  fill
+                  className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover brightness-50"
                 />
                 <h1 className="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
                   Bize Ulaşın
                 </h1>
                 <div className="absolute bottom-0 w-full lg:p-11 p-5">
                   <div className="bg-white rounded-lg p-6 block">
-                    <a href="javascript:;" className="flex items-center mb-6">
+                    <Link
+                      href="tel:+905383549477"
+                      target="_blank"
+                      className="flex items-center mb-6"
+                    >
                       <IoIosCall />
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
                         +90 (538) 354 94 77
                       </h5>
-                    </a>
-                    <a href="javascript:;" className="flex items-center mb-6">
+                    </Link>
+                    <Link
+                      target="_blank"
+                      href="mailto:info@istanpulpremium.com.tr"
+                      className="flex items-center mb-6"
+                    >
                       <IoMail />
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
                         info@istanpulpremium.com.tr
                       </h5>
-                    </a>
-                    <a href="javascript:;" className="flex items-center">
+                    </Link>
+                    <Link
+                      target="_blank"
+                      href="https://maps.app.goo.gl/pZmAcFhbfDKAFt916"
+                      className="flex items-center"
+                    >
                       <MdPlace />
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
                         Demirkapı, Bağcılar Asf Cd, 34203 Bağcılar/İstanbul
                       </h5>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
