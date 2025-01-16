@@ -4,6 +4,8 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Bounce, ToastContainer } from "react-toastify";
+import { AtomProvider } from "@/components/Provider/providers";
+import VideoSection from "@/components/Home/VideoSection";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,24 +33,27 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ToastContainer
-          position="bottom-center"
-          autoClose={5000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick={false}
-          rtl={false}
-          pauseOnHover
-          theme="light"
-          transition={Bounce}
-          toastStyle={{
-            backgroundColor: "black",
-            color: "white",
-          }}
-        />
-        <Header />
-        {children}
-        <Footer />
+        <AtomProvider>
+          <ToastContainer
+            position="bottom-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick={false}
+            rtl={false}
+            pauseOnHover
+            theme="light"
+            transition={Bounce}
+            toastStyle={{
+              backgroundColor: "black",
+              color: "white",
+            }}
+          />
+          <VideoSection />
+          <Header />
+          {children}
+          <Footer />
+        </AtomProvider>
       </body>
     </html>
   );

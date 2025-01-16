@@ -1,15 +1,21 @@
 "use client";
 import Image from "next/image";
-import { Navigation, EffectFade } from "swiper/modules";
+import Link from "next/link";
+
+import { useAtom } from "jotai";
+import { TripleCard } from "./TripleCard";
+import { isVideo } from "../Provider/atom";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, EffectFade } from "swiper/modules";
+import { FaArrowLeft, FaArrowRight, FaPlay } from "react-icons/fa";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
-import { FaArrowLeft, FaArrowRight, FaPlay } from "react-icons/fa";
-import { TripleCard } from "./TripleCard";
 
 export const SwiperDemo = () => {
+  const [, setIsVideoValue] = useAtom(isVideo);
+
   return (
     <div className="relative" id="anasayfa">
       <div className="swiper-button-prev-custom hidden lg:block absolute top-1/2 left-12 z-10 cursor-pointer text-black bg-white p-2 rounded-full hover:bg-primary hover:text-white transition-all duration-300">
@@ -49,10 +55,18 @@ export const SwiperDemo = () => {
                 çözümler sunuyoruz.
               </p>
               <div className="text-white mt-6 flex flex-row items-center gap-6">
-                <div className="bg-red-500 inline-flex px-6 py-3 hover:bg-primary transition-all duration-300 cursor-pointer">
+                <Link
+                  href="#iletisim"
+                  className="bg-red-500 inline-flex px-6 py-3 hover:bg-primary transition-all duration-300 cursor-pointer"
+                >
                   İletişime Geç
-                </div>
-                <div className="flex flex-row items-center gap-4 relative">
+                </Link>
+                <div
+                  onClick={() => {
+                    setIsVideoValue(true);
+                  }}
+                  className="flex flex-row items-center gap-4 relative cursor-pointer"
+                >
                   <FaPlay className="bg-white text-red-500 rounded-full p-4 size-12 hover:scale-125 transition-all duration-300" />
                   <p className="text-sm font-bold cursor-pointer">
                     Tanıtımı İzle
@@ -83,10 +97,13 @@ export const SwiperDemo = () => {
                 günkü performansına kavuşturuyoruz. Kalite ve müşteri
                 memnuniyeti önceliğimizdir.
               </p>
-              <div className="text-white mt-6 flex flex-row items-center gap-6">
-                <div className="bg-red-500 inline-flex px-6 py-3 hover:bg-primary transition-all duration-300 cursor-pointer">
+              <div className="text-white mt-6 flex flex-row items-center gap-6 cursor-pointer">
+                <Link
+                  href="#iletisim"
+                  className="bg-red-500 inline-flex px-6 py-3 hover:bg-primary transition-all duration-300 cursor-pointer"
+                >
                   İletişime Geç
-                </div>
+                </Link>
               </div>
             </div>
           </div>
