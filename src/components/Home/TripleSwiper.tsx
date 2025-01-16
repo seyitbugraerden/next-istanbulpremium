@@ -136,7 +136,6 @@ export const TripleSwiper: React.FC<TripleSwiperProps> = () => {
           slidesPerView: 3,
         },
       }}
-      loop
       modules={[Pagination]}
       className="mySwiper translate-y-10 lg:translate-y-14 cursor-pointer"
     >

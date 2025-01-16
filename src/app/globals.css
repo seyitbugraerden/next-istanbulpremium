@@ -98,7 +98,7 @@ body {
     height: 100%;
     background-color: red;
     z-index: 99;
-    background-image: url("https://picsum.photos/600/600");
+    background-image: url("../../public/sss.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
   }
