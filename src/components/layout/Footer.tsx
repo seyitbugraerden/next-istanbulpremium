@@ -11,7 +11,7 @@ export const Footer = () => {
             href="https://flowbite.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <Image src="/logo.png" alt="logo" width={140} height={40} className="w-32 md:w-36" />
+            <Image src="/brand_white.svg" alt="logo" width={240} height={40} className="w-32 md:w-36" />
           </a>
           <ul className="flex flex-wrap justify-center items-center gap-4 text-sm font-medium text-white">
             <li>
