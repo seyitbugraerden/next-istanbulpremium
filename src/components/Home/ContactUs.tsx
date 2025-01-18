@@ -45,7 +45,7 @@ export const ContactUs: React.FC = () => {
             <div className="group w-full h-full">
               <div className="relative h-full min-h-[600px] lg:min-h-fit">
                 <Image
-                  src="/contact_us.jpg"
+                  src="/contact_us.webp"
                   alt="Contact Us Image"
                   fill
                   className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover brightness-50"

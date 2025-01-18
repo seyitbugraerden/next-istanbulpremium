@@ -86,7 +86,7 @@ export const ServiceTop = () => {
 
           <div className="flex items-center justify-center">
             <Image
-              src="/item.jpg"
+              src="/item.webp"
               alt="About Image"
               width={340}
               height={340}

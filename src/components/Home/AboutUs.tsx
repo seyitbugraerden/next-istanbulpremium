@@ -8,7 +8,7 @@ export const AboutUs = () => {
       <section className="grid lg:grid-cols-5 container gap-12">
         <div className="lg:col-span-2 relative order-2 lg:order-1">
           <Image
-            src="/about_us.jpg"
+            src="/about_us.webp"
             alt="About Image"
             width={340}
             height={340}

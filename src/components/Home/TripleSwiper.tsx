@@ -15,7 +15,7 @@ interface TripleSwiperProps extends SwiperProps {
 
 const slideData = [
   {
-    image: "/periyodik_bakim.jpg",
+    image: "/periyodik_bakim.webp",
     category: "Başlıca Hizmetler",
     title: "Periyodik Bakımlar",
   },
@@ -25,7 +25,7 @@ const slideData = [
     title: "Araç Muayene Öncesi Hazırlık",
   },
   {
-    image: "/tyre_change.jpg",
+    image: "/tyre_change.webp",
     category: "Başlıca Hizmetler",
     title: "Lastik Değişimi ve Rot Balans",
   },
@@ -66,12 +66,12 @@ const slideData = [
     title: "Araç Elektrik Tesisatı Tamir",
   },
   {
-    image: "/sensor.jpg",
+    image: "/sensor.webp",
     category: "Başlıca Hizmetler",
     title: "Sensör Kontrolleri ve Değişimi",
   },
   {
-    image: "/fren.jpg",
+    image: "/fren.webp",
     category: "Başlıca Hizmetler",
     title:
       "Fren Sistemi Bakımı ve Onarımı (Disk, balata, hidrolik sıvı değişimi)",
@@ -88,12 +88,12 @@ const slideData = [
       "Direksiyon Sistemi Tamiri (Hidrolik ve elektronik destek sistemleri)",
   },
   {
-    image: "/kaporta.jpg",
+    image: "/kaporta.webp",
     category: "Başlıca Hizmetler",
     title: "Kaporta Onarımı ve Düzeltme (Çizik, ezik giderme)",
   },
   {
-    image: "/boya.jpg",
+    image: "/boya.webp",
     category: "Başlıca Hizmetler",
     title: "Boya Tamiri ve Yenileme",
   },
@@ -103,12 +103,12 @@ const slideData = [
     title: "Klima Bakımı ve Gaz Dolumu",
   },
   {
-    image: "/bilg_tespit.jpg",
+    image: "/bilg_tespit.webp",
     category: "Başlıca Hizmetler",
     title: "Bilgisayarlı Arıza Tespiti",
   },
   {
-    image: "/dyno.jpg",
+    image: "/dyno.webp",
     category: "Başlıca Hizmetler",
     title: "Motor Performans Testleri",
   },
