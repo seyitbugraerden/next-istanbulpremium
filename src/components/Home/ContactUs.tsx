@@ -43,10 +43,10 @@ export const ContactUs: React.FC = () => {
         <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="lg:mb-0 mb-10">
             <div className="group w-full h-full">
-              <div className="relative h-full">
+              <div className="relative h-full min-h-[600px] lg:min-h-fit">
                 <Image
                   src="/contact_us.jpg"
-                  alt="ContactUs tailwind section"
+                  alt="Contact Us Image"
                   fill
                   className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover brightness-50"
                 />

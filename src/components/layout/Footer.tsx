@@ -5,13 +5,13 @@ import React from "react";
 export const Footer = () => {
   return (
     <footer className="bg-darkblue shadow text-white">
-      <div className="container py-4 md:py-8">
+      <div className="container py-12 lg:py-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <a
             href="https://flowbite.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <Image src="/brand_white.svg" alt="logo" width={240} height={40} className="w-32 md:w-36" />
+            <Image src="/brand_white.svg" alt="logo" width={240} height={40} className="w-64 mx-auto md:w-36" />
           </a>
           <ul className="flex flex-wrap justify-center items-center gap-4 text-sm font-medium text-white">
             <li>

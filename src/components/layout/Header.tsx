@@ -91,7 +91,7 @@ export const Header = () => {
       <div className="shadow-2xl bg-white">
         <div className="container flex flex-col md:flex-row justify-between items-center py-4 space-y-4 md:space-y-0">
           <div className="flex justify-between items-center w-full md:w-auto">
-            <Image src="/brand.svg" alt="logo" width={240} height={70} />
+            <Image src="/brand.svg" alt="logo" width={240} height={70} className="w-1/2 lg:w-52" />
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMenu}
