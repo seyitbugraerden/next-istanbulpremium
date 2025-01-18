@@ -35,7 +35,7 @@ export const SwiperDemo = () => {
       >
         <SwiperSlide className="relative">
           <Image
-            src="/banner_1.jpeg"
+            src="/banner_1.webp"
             alt="inline"
             width={1920}
             height={800}

@@ -46,7 +46,7 @@ const slideData = [
       "Soğutma Sistemi Onarımları (Radyatör, termostat ve hortum tamirleri)",
   },
   {
-    image: "/egzoz.png",
+    image: "/egzoz.webp",
     category: "Başlıca Hizmetler",
     title: "Egzoz Sistemi Onarımları (Egzoz boruları, katalitik konvertör)",
   },
@@ -56,12 +56,12 @@ const slideData = [
     title: "Akü Kontrol ve Değişimi",
   },
   {
-    image: "/far.jpeg",
+    image: "/far.webp",
     category: "Başlıca Hizmetler",
     title: "Far, Stop Lambası ve Aydınlatma Tamiri",
   },
   {
-    image: "/tesisat.jpeg",
+    image: "/tesisat.webp",
     category: "Başlıca Hizmetler",
     title: "Araç Elektrik Tesisatı Tamir",
   },
@@ -98,7 +98,7 @@ const slideData = [
     title: "Boya Tamiri ve Yenileme",
   },
   {
-    image: "/aracklima.jpeg",
+    image: "/aracklima.webp",
     category: "Başlıca Hizmetler",
     title: "Klima Bakımı ve Gaz Dolumu",
   },
