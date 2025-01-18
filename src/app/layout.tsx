@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   title: "İstanbul Premium Oto Servis | Profesyonel Araç Bakım ve Onarım",
   description:
     "İstanbul Premium oto servis hizmetleriyle aracınıza özel bakım ve onarım çözümleri sunuyoruz. Hızlı, güvenilir ve kaliteli hizmet için bizi tercih edin!",
+  alternates: { canonical: "https://istanbulotopremium.com" },
 };
 
 export default function RootLayout({
