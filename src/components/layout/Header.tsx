@@ -145,7 +145,7 @@ export const Header = () => {
             />
             <div>
               <h2 className="ms-2">Şimdi İletişime Geç</h2>
-              <h5 className="font-medium text-lg">+90 (538) 354 94 77</h5>
+              <span className="font-medium text-lg">+90 (538) 354 94 77</span>
             </div>
           </Link>
         </div>
