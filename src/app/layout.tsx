@@ -6,7 +6,7 @@ import { Bounce, ToastContainer } from "react-toastify";
 import { AtomProvider } from "@/components/Provider/providers";
 
 import VideoSection from "@/components/Home/VideoSection";
-
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -111,6 +111,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Analytics />
         <AtomProvider>
           <ToastContainer
             position="bottom-center"
